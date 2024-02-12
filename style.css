@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans - serif;
+}
+
+body {
+    background-color: rgb(141, 1, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+}
+
+.header {
+    margin-top: 20px;
+    width: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.header i {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.header h1 {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.display {
+    height: 12rem;
+    background-color: rgb(37, 37, 37);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 6px 10px rgb(0, 0, 0);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.display input {
+    text-align: right;
+    box-shadow: none;
+    text-decoration: none;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    border: none;
+    width: 17rem;
+    height: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 5px 10px 5px;
+}
+
+.container2 .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container2 .row .button {
+    color: #d8d0d0;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black, -1px -1px 5px rgb(134, 128, 128);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.container2 .row .button:hover {
+    background-color: rgb(37, 37, 37);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px black;
+}
+
+.equal {
+    width: 6.5rem;
+    color: #d8d0d0;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(141, 1, 255);
+    height: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black, -1px -1px 5px rgb(53, 52, 52);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.equal:hover {
+    background-color: rgb(141, 1, 255);
+    height: 2.5rem;
+    width: 6.5rem;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgb(20, 20, 20);
+}
